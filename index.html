@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TechStore</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    
+
+    <header>
+        <div class="container">
+            <h1 class="logo">TechStore</h1>
+
+            <nav>
+                <ul class="menu">
+                    <li><a href="#categories">Categotias</a></li>
+                    <li><a href="#featured">Destaques</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div id="container">
+                <h2>Tecnologia que conecta você ao futuro</h2>
+                <p>Smartphones, notebooks e acessórios com qualidade.</p>
+                <a href="#categories" class="btn">Ver categorias</a>
+            </div>
+        </section>
+
+        <section id="categories" class="categories">
+            <article>
+                <div class="container">
+                    <h2>Categorias</h2>
+
+                    <div id="categories-grid">
+
+                        <article class="category-grid">
+                            <img src="assets/imagens/smartphones.jpg" alt="Smartphones">
+                            <h3>Smartphones</h3>
+                        </article>
+
+                        <article class="category-grid">
+                            <img src="assets/imagens/notebooks.jpg" alt="Notebooks">
+                            <h3>Notebooks</h3>
+                        </article>
+
+                        <article class="category-grid">
+                            <img src="assets/imagens/headphones.jpg" alt="Fones de ouvido">
+                            <h3>Fones</h3>
+                        </article>
+
+                        <article class="category-grid">
+                            <img src="assets/imagens/accessories.jpg" alt="Acessórios">
+                            <h3>Acessórios</h3>
+                        </article>
+
+                    </div>
+                </div>
+        </section>
+
+        <section id="featured" class="featured">
+            <div class="container">
+                <h2>Destaques</h2>
+                <p>Produtos selecionados para você</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <p>&copy; 2026 TechStore. Adriel Souza.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
