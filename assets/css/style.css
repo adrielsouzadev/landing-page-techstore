@@ -30,3 +30,40 @@ body {
     grid-template-columns: 1fr;
     gap: 1rem;
 }
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid var(--cor-texto-suave);
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--cor-primaria);
+}
+
+header .menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header .menu a {
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+header .menu a:hover {
+    color: var(--cor-primaria);
+}
