@@ -126,6 +126,21 @@ header .container {
     font-size: 1.1rem;
 }
 
+.featured {
+    padding: 3rem 1rem;
+    background-color: #ffffff;
+}
+
+.featured h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    color: var(--cor-secundaria);
+}
+
+.featured p {
+    color: var(--cor-texto-suave);
+}
+
 /*Tablet*/
 @media(min-width: 768px) {
     .categories-grid {
