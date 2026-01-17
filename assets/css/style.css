@@ -122,3 +122,17 @@ header .container {
     font-weight: 600;
     color: var(--cor-secundaria);
 }
+
+/*Tablet*/
+@media(min-width: 768px) {
+    .categories-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/*Desktop*/
+@media(min-width: 1024px) {
+    .categories-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
