@@ -20,7 +20,7 @@
 
 body {
     min-height: 100vh;
-    background-color: var(--cor-fundo);
+    background-color :#ffffff;
     color: var(--cor-texto);
     font-family: var(--fonte-principal);
 }
@@ -102,8 +102,18 @@ header .container {
     opacity: 0.9;
 }
 
+.categories {
+    padding: 3rem 1rem;
+}
+
 .categories h2{
     padding-bottom: 15px;
+}
+
+.categories .container {
+    background-color: var(--cor-fundo);
+    padding: 2rem;
+    border-radius: 16px;
 }
 
 .category-card {
@@ -160,15 +170,17 @@ footer p {
 }
 
 /*Tablet*/
-@media(min-width: 768px) {
+@media (min-width: 768px) {
     .categories-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 /*Desktop*/
-@media(min-width: 1024px) {
-    .categories-grid {
-        grid-template-columns: repeat(3, 1fr);
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1200px;
+        padding: 0 2rem;
+        margin: 0 auto;
     }
 }
